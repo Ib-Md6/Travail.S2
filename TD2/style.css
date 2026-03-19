@@ -1,0 +1,81 @@
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #7e3131;
+}
+h1 {
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: #437A74;
+}
+
+h2{
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #70473A;
+    font-style: oblique;
+}
+
+h3{
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #51705C;
+}
+
+p{
+    font-weight: 400;
+}
+
+nav ul {
+    display: flex;
+    align-items: center ;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#pourquoi{
+    display: flex;
+}
+
+#pourquoi p {
+    flex: 0.7;
+    margin:2vw;
+}
+
+#pourquoi article{
+    flex: 2;
+}
+@media (max-width: 680px) {
+  #pourquoi{
+    flex-direction: column;
+  }
+}
+
+#temoignages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#temoignages blockquote{
+    font-style: italic;
+}
+
+@media (max-width: 680px) {
+  #temoignages{
+    flex-direction: column;
+  }
+}
+
+.hero {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+#conseils {
+    margin-top: 0.5vh;
+    margin-bottom: 3vh;
+}
+footer{
+    margin-top: 2vh;
+}
